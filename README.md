@@ -1,3 +1,33 @@
-### 简述
+# react_components
 
-本项目用于实现的react组件库，仅用于自己练习使用。如若使用请参考 ant-design等开源组件库
+## Getting Started
+
+Install dependencies,
+
+```bash
+$ npm i
+```
+
+Start the dev server,
+
+```bash
+$ npm start
+```
+
+Build documentation,
+
+```bash
+$ npm run docs:build
+```
+
+Run test,
+
+```bash
+$ npm test
+```
+
+Build library via `father`,
+
+```bash
+$ npm run build
+```
