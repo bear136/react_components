@@ -1,5 +1,3 @@
-# react_components
+### 简述
 
-### 简介 
-
-本项目是一个react组件库的尝试，主要使用react+ts进行开发
+本项目基于react-ts、storybook实现的react组件库，仅用于自己练习使用。如若使用请参考 ant-design等开源组件库
