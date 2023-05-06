@@ -1,5 +1,33 @@
 # react_components
 
-### 简介 
+## Getting Started
 
-本项目是一个react组件库的尝试，主要使用react+ts进行开发
+Install dependencies,
+
+```bash
+$ npm i
+```
+
+Start the dev server,
+
+```bash
+$ npm start
+```
+
+Build documentation,
+
+```bash
+$ npm run docs:build
+```
+
+Run test,
+
+```bash
+$ npm test
+```
+
+Build library via `father`,
+
+```bash
+$ npm run build
+```
