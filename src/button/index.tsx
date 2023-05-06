@@ -6,13 +6,31 @@ interface ButtonProps {
   loading?: boolean;
   href?: string;
   disabled?: boolean;
-  classname?: string;
+  className?: string;
   icon?: ReactNode;
-  style?: {};
+  children?: ReactNode;
+  style?: object;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
-function Button(props: ButtonProps): ReactElement {
-  return <button></button>;
-}
+export default (props: ButtonProps): ReactElement => {
+  const {
+    type = 'default',
+    disabled = false,
+    size = 'default',
+    loading = false,
+    href,
+    className,
+    icon,
+    children,
+    style,
+    onClick = () => {},
+  } = props;
 
-export default Button;
+  return (
+    <button onClick={onClick} style={style} disabled={disabled}>
+      {icon}
+      {children}
+    </button>
+  );
+};
