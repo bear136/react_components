@@ -1,0 +1,19 @@
+// color
+@high-light-background-color: #1677ff;
+@text-background-color: rgb(240, 240, 240);
+@common-border-color: #d9d9d9;
+
+// mixin
+
+.flexbox (@flexType: flex, @alignItem: center, @justyContent: center, ) {
+  display: @flexType;
+  align-items: @alignItem;
+  justify-content: @justyContent;
+}
+
+.keyframesFunction (@name, @content) {
+  // @变量可以写你想要传进这个函数所用的参数
+  @keyframes @name {
+    @content(); //你想要执行的动画效果
+  }
+}
